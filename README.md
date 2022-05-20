@@ -10,5 +10,8 @@ I wanted to create a auto control viarium system that I did not have to monitor 
 ## Build Guide
 
 ### Hardware
+**Parts**
+Picture | Name | Purpose
+--------|------|---------
 
 ### Software
