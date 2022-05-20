@@ -18,4 +18,6 @@ Picture | Name | Purpose
 |![Adapter](/imgs/adapter.png)|Adapter|Power supply for Raspberry Pi 4|
 |![Humidifier](/imgs/humidifier_s.png)|Humidifier|Increase humidity|
 |![Breadboard](/imgs/Breadboard_s.png)|Breadboard|Create circuits|
+|![plant_light](/imgs/plant_light_s.png)|Plant Light|Increase light and Temperature|
+|![Lcd](/imgs/Lcd_s.png)|LCD Panel|Display temperature and humidity|
 ### Software
