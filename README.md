@@ -13,5 +13,7 @@ I wanted to create a auto control viarium system that I did not have to monitor 
 **Parts**
 Picture | Name | Purpose
 --------|------|---------
-
+|![Piboard](/imgs/pi_board.png)|Raspberry Pi 4 Model B|Main CPU Board|
+|![DHT22](/imgs/DHT22.png)|Temperature & Humidity Sensor|Detect temperature and humidity|
+|![Adapter](/imgs/adapter.png)|Adapter|Power supply for Raspberry Pi 4|
 ### Software
