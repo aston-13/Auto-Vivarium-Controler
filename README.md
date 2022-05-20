@@ -5,7 +5,7 @@
 - [Build Guide](#build-guide)
 
 ## Background
-I wanted to create a auto control viarium system that I did not have to monitor 24/7 and tend to all change from daylight to night for my Mom. It started out as a project to monitor the humidity. I want to maintain the right temperature and humidity for the plants. I detect temperature and humidity by sensors to control the humidifier and plant light.
+I wanted to create a auto control viarium system that I did not have to monitor 24/7 and tend to all change from day to night for my Mom. It started out as a project to monitor the humidity. I want to maintain the right temperature and humidity for the plants. I detect temperature and humidity by sensors to control the humidifier and plant light.
 
 ## Build Guide
 
@@ -21,4 +21,8 @@ Picture | Name | Purpose
 |![plant_light](/imgs/plant_light_s.png)|Plant Light|Increase light and temperature|
 |![Lcd](/imgs/Lcd_s.png)|LCD Panel|Display temperature and humidity|
 |![relay](/imgs/relay_s.png)|Power Relay Board|Switch power on or off|
+|![wifi_dongle](/imgs/wifi_dongle_s.png)|WIFI Dongle|Connect to WIFI AP|
+
+**Circuit**
+
 ### Software
