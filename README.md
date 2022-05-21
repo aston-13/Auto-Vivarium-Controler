@@ -12,7 +12,8 @@ I wanted to create a auto control viarium system that I did not have to monitor 
 ## Build Guide
 
 ### Hardware
-**Parts**
+- **Parts**
+
 Picture | Name | Purpose
 --------|------|---------
 |![Piboard](/imgs/pi_board.png)|Raspberry Pi 4 Model B|Main CPU Board|
@@ -24,7 +25,10 @@ Picture | Name | Purpose
 |![Lcd](/imgs/Lcd_s.png)|LCD Panel|Display temperature and humidity|
 |![relay](/imgs/relay_s.png)|Power Relay Board|Switch power on or off|
 |![wifi_dongle](/imgs/wifi_dongle_s.png)|WIFI Dongle|Connect to WIFI AP|
+|![adj_rest](/imgs/adj_rest_s.png)|Variable Resistor|Adjust LCD brightness|
 
-**Circuit**
+- **Circuit**
 
 ### Software
+- **Flow Chart**
+- **Pin Define**
