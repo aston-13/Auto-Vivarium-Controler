@@ -31,4 +31,8 @@ Picture | Name | Purpose
 
 ### Software
 - **Flow Chart**
+
+  Humidity
+  
+  ![Alt text](/imgs/humidity_flow.png)
 - **Pin Define**
