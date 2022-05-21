@@ -34,5 +34,5 @@ Picture | Name | Purpose
 
   Humidity
   
-  ![Alt text](/imgs/humidity_flow.png)
+  ![Alt text](/imgs/humidity_flow_0521.png)
 - **Pin Define**
