@@ -40,4 +40,6 @@ Picture | Name | Purpose
   
   Temperature
   
+  ![Alt text](/imgs/temperature.png)
+  
 - **Pin Define**
