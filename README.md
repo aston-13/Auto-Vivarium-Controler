@@ -29,10 +29,15 @@ Picture | Name | Purpose
 
 - **Circuit**
 
+![Alt text](/imgs/circuit.jpg)
+
 ### Software
 - **Flow Chart**
 
   Humidity
   
   ![Alt text](/imgs/humidity_flow_0521.png)
+  
+  Temperature
+  
 - **Pin Define**
