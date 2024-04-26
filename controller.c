@@ -22,6 +22,7 @@
 #define MAXTIMINGS 85
 #define DHTPIN 7
 #define RelayPn 0
+#define RelayPn_h 1
 
 
 int lcd;
@@ -32,7 +33,7 @@ void read_dht11_dat()
         uint8_t laststate = HIGH;
         uint8_t counter = 0;
         uint8_t j = 0, i;
-        float f; 
+        float f,humidity; 
 
         dht11_dat[0] = dht11_dat[1] = dht11_dat[2] = dht11_dat[3] = dht11_dat[4] = 0;
 
@@ -82,20 +83,25 @@ void read_dht11_dat()
                 lcdPosition(lcd, 0, 1);
                 lcdPrintf(lcd, "Temp: %d.0 C", dht11_dat[2]); //Uncomment for Celsius
                 //lcdPrintf(lcd, "Temp: %f.%f %% C", f); //Comment out for Celsius
-        if(dht11_dat[2]<20)
+
+		humidity = dht11_dat[0]+(dht11_dat[1]/10);
+        if(dht11_dat[2]<10)
 	{ 
 		printf("TEMPERATURE LOW/n");
 		digitalWrite(RelayPn, LOW); 
 	}
-         else 
+         else if(dht11_dat[2] > 28)
 	{ 
 		//lcdPosition(lcd, 0, 3);
 		printf("TEMPERATURE HIGH\n");
 		digitalWrite(RelayPn, HIGH); 
 	}
 
-
-        }
+	if(humidity<50) {
+		digitalWrite(RelayPn_h, LOW); 
+        } else if(humidity > 80) {
+		digitalWrite(RelayPn_h, HIGH);
+	}
 }
 
 void read_ip_dat()
